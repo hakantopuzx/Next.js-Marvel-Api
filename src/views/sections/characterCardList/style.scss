@@ -1,0 +1,35 @@
+@import "../../../assets/mixin.scss";
+
+.card-list {
+    width: 100%;
+    padding: .48rem 0;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+        .title {
+            h1 {
+                font-size: .64rem;
+                color: #fff;
+                text-align: center;
+
+                @include m {
+                    font-size: .48rem;
+                }
+            }
+        }
+
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .25rem;
+            row-gap: .5rem;
+
+            @include m {
+                flex-direction: column;
+            }
+        }
+    }
+}

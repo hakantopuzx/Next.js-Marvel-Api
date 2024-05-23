@@ -1,0 +1,18 @@
+header {
+    padding: .32rem 0;
+
+    .container {
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo {
+                img {
+                    width: 100%;
+                    height: .72rem;
+                }
+            }
+        }
+    }
+}
